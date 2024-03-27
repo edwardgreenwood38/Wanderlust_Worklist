@@ -1,6 +1,7 @@
 //import { useState } from 'react'
 import './App.css'
 import Title from './title.jsx';
+import WWnav from './nav.jsx';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <>
+      <WWnav />
       <Title />
       {/* <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
